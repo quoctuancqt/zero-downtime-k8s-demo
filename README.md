@@ -1,4 +1,3 @@
-# zero-downtime-k8s-demo
 * We are running our app on the port 80. Time to create the deployment:
 ```
 kubectl create -f deployment.yaml
