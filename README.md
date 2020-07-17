@@ -18,7 +18,8 @@ while True
         sleep 1s
     done
 ```
-* Update version from version 1 to version. Let's apply our change:
+* Make sure you use your own external IP here. This will send a request to our app every second. Run it and you will see v1 content every second.
+* Now, update version from version 1 to version. Let's apply our change:
 ```
 kubectl apply -f deployment.yaml
 ```
