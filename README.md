@@ -14,7 +14,7 @@ kubectl expose deployment/myapp-deployment --type="LoadBalancer" --port 80
 ```
 while True
     do
-        curl 100.193.114.176
+        curl [Your IP Address]
         sleep 1s
     done
 ```
