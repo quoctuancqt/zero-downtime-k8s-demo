@@ -8,7 +8,7 @@ kubectl create -f deployment.yaml
 ```
 kubectl expose deployment/myapp-deployment --type="LoadBalancer" --port 80
 ```
-* Open browser and navigate to `http://localhost` to see the result
+* Open browser and navigate to `http://localhost:8080` to see the result
 
 * Before we apply the change, open your terminal and do this:
 ```
